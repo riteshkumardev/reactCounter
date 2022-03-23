@@ -1,12 +1,152 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.div2{
+  border: 1px solid red;
+  margin: 20px;
+}
+.login{
+  margin-right: 20px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+.join{
+  margin-right: 20px;
+  width: 150px;
+  background-color: green;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
 
+}
+.setting{
+  margin-right: 20px;
+background-color: crimson;
+  width: 150px;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Download{
+ margin-left:20px ;
+ margin-bottom: 20px;
+
+ padding: 5px;
+ border-radius: 20px;
+ color: white;
+ background-color: rgb(157, 157, 233);
+ width: 150px;
+}
+.Home{
+
+}
+.image{
+  width: 500px;
+  margin:50px;
+}
+
+.maindiv{
+  /* background-color: pink; */
+  margin-left: 100px;
+  width: 450px;
+}
+.wrapper{
+  display: flex;
+}
+.CAL{
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+}
+.first{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.second{
+  font-size: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  color: red;
+}
+.orderdiv{
+  display: flex;
+  /* border: 1px solid red; */
+  /* background-color: white; */
+}
+.btn{
+  width: 130px;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+.paragraph{
+  color: grey;
+  font-size: 25px;
+}
+.heading{
+  margin-right: 130px;
+}
+.pizadiv{
+  display: flex;
+}
+.fire{
+  width: 50px;
+  margin-right: 20px;
+}
+.fire2{
+  width: 33px;
+}
+.contactUs{
+  margin-right: 20px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(238, 141, 160);
+}
+.Help {
+
+ margin-right: 20px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(75, 4, 18);
+}
+
+.search{
+  margin-right: 20px;
+  width: 150px;
+  padding: 5px;
+  color: white;
+  background-color: chocolate;
+  border-radius: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
